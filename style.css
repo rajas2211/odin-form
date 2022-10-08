@@ -125,7 +125,7 @@ body{
     outline: none;
 }
 
-.input-container input:focus-within {
+.input-container input:focus {
     outline: 2px solid rgb(43, 110, 233);
     box-shadow: 2px 2px 8px 1px #a1a1a1;
 }
