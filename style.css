@@ -111,7 +111,6 @@ body{
     margin-bottom: 1.5em;
     box-sizing: border-box;
     width: 40%;
-    justify-content: space-between;
 }
 .input-field label {
     font-family: monospace;
@@ -143,6 +142,12 @@ body{
 .button-container{
     padding: 2rem 30rem 0 3rem;
     font-size: 1.15em;
+}
+
+#password-confirm+span {
+    visibility: hidden;
+    color: rgb(219, 48, 17);
+    margin-top: 4px;
 }
 
 .button-container button {
