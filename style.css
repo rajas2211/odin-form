@@ -20,7 +20,7 @@ body{
 }
 
 .header-container{
-    background-image: url(/images/background.jpg);
+    background-image: url("images/background.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -144,7 +144,7 @@ body{
 .button-container button {
     display: block;
     margin-bottom: 1.5em;
-    background-color: olive;
+    background-color: #596D48;
     outline: none;
     border: none;
     padding: 8px 45px;
@@ -155,5 +155,5 @@ body{
 
 .button-container a{
     text-decoration: none;
-    color: olive;
+    color: #596D48;
 }
