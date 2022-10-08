@@ -32,7 +32,7 @@ body{
 }
 
 .logo-container{
-    margin: 15rem 0 0 0;
+    margin: 30% 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,12 +76,11 @@ body{
     flex:3;
     display: flex;
     flex-direction: column;
-    justify-content: ;
 }
 
 .hero-container{
-    margin-top: 11rem;
-    padding: 0 30rem 0 3rem;
+    margin-top: 15%;
+    padding: 0 25% 0 3rem;
     font-size: 1.3em;
     font-weight: bold;
     line-height: 1.05em;
@@ -89,7 +88,7 @@ body{
 
 .input-container{
     background-color: #fff;
-    padding: 0 30rem 0 3rem;
+    padding: 0 25% 0 3rem;
     box-shadow: 10px 10px 15px 1px #a1a1a1;
 }
 
@@ -135,6 +134,11 @@ body{
     outline: 2px solid rgb(219, 48, 17);
     box-shadow: 2px 2px 8px 1px #a1a1a1;
 }
+
+/* .input-container input:valid {
+    outline: 2px solid rgb(21, 190, 29);
+    box-shadow: 2px 2px 8px 1px #a1a1a1;
+} */
 
 .button-container{
     padding: 2rem 30rem 0 3rem;

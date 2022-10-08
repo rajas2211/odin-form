@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="header-container">
@@ -29,27 +30,29 @@
                 <div class="fields-container">
                     <div class="input-field">
                         <label for="first">FIRST NAME</label>
-                        <input type="text" id="first" name="first" required>
+                        <input type="text" id="first" name="first"
+                         minlength="2" required>
                     </div>
                     <div class="input-field">
                         <label for="last">LAST NAME</label>
-                        <input type="text" id="last" name="last">
+                        <input type="text" id="last" name="last" minlength="2" required>
                     </div>
                     <div class="input-field">
                         <label for="email">EMAIL</label>
-                        <input type="text" id="email" name="email">
+                        <input type="email" id="email" name="email" minlength="2" required>
                     </div>
                     <div class="input-field">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="text" id="phone" name="phone">
+                        <input type="tel" id="phone" name="phone" required>
                     </div>
                     <div class="input-field">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div class="input-field">
                         <label for="password-confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="password-confirm" name="password-confirm">
+                        <input type="password" id="password-confirm" name="password-confirm" required>
+                        <span></span>
                     </div>
                 </div>
             </div>
