@@ -129,7 +129,10 @@ body{
     box-shadow: 2px 2px 8px 1px #a1a1a1;
 }
 
-.input-container input:invalid {
+
+
+.input-container input:invalid:not(:focus),
+.input-container input:invalid:focus {
     outline: 2px solid rgb(219, 48, 17);
     box-shadow: 2px 2px 8px 1px #a1a1a1;
 }
